@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main() {
 	char str[26];
-	printf("알파벳 대문자를 입력해주세요:");
+	printf("알파벳 대문자를 입력해주세요:"); // 주석
 	scanf("%s", str);
 	for(int i =0; i<27; i++){
 	if (str[i] == 'A') {
